@@ -1,0 +1,93 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ececec;
+}
+.data-loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.data-not-match {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 32px;
+  color: red;
+}
+.app-container h3 {
+  text-align: center;
+  background: #b2b2b2;
+  padding: 7px;
+  margin: 0;
+}
+
+.container {
+  max-width: 100% !important;
+  margin: auto;
+  padding: 10px 20px;
+}
+.settings-page {
+  background: #e1e1e1;
+}
+.filters-actions {
+  display: flex;
+}
+
+.article {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.article h3 {
+  margin-top: 0;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-container select {
+  padding: 5px;
+  font-size: 16px;
+  height: 42px;
+  width: 100%;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 7.5px 10px;
+  font-size: 16px;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.filter-date {
+  padding: 0px 0px;
+}
+.date-picker {
+  width: 100%;
+  height: 42px;
+  font-size: 16px;
+}
+.settings-content {
+  padding: 10px;
+}
+.settings-content label {
+  margin-right: 12px;
+}
+
+.button-actions {
+  padding: 10px 0px;
+}
+.button-actions button {
+  margin-right: 10px;
+}
